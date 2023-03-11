@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"> <img src="imagens/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html -.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+        
+    </section>
+
+    <!------contact us-------->
+
+    <section class="location">
+
+        <!------Vai para o google Map 
+            vai para tua localização 
+            clica em share 
+            faça um copy do link para html-------->
+
+
+
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+
+            <div class="contact-col">
+
+        
+
+                <div>
+                    <a href="#" class="fab fa-home"></a>
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Ave. Combatentes, Valodia</p>
+                    </span>
+
+                </div>
+
+                <div>
+                    <a href="#" class="fab fa-phone"></a>
+                    <span>
+                        <h5>+244395895</h5>
+                        <p>Monday to Saturday, 10AM to 12GPM</p>
+                    </span>
+
+                </div>
+
+                <div>
+                    <a href="#" class="fab fa-envelope"></a>
+                    <span>
+                        <h5>Oliveiratone@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+
+                </div>
+
+                
+
+            </div>
+
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter Your name" required>
+                    <input type="email" placeholder="Enter Your Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea  rows="8" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+     
+
+    
+
+     <!-------footer-------->
+
+    <section class="footer">
+
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque accusantium consectetur repellendus <br> quod in ea maxime omnis obcaecati consequatur error quos nisi excepturi, asperiores nam facilis molestiae! Magnam, sapiente officiis?  </p>
+
+        <div class="icons">
+
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+
+
+        </div>
+        <p>Made by Evar Tone</p>
+
+
+     </section>
+
+<!----------JavaScript for Toggle Menu-------->
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+          navlinks.style.right = "0";  
+        }
+
+        function hideMenu(){
+          navlinks.style.right = "-200px";  
+        }
+
+    </script>
+    
+</body>
+</html>

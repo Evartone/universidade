@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"> <img src="imagens/logo.png" alt=""></a>
+
+            <div class="nav-links" id="navlinks">
+
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html -.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Course</h1>
+        
+    </section>
+
+     <!------Our Course-------->
+
+     
+    <section class="course">
+        <h1> Courses we Offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+
+            <div class="course-col">
+                <h3>Intermidiate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur explicabo, laborum illum reiciendis repudiandae doloribus aut voluptas atque provident alias. Aspernatur est inventore nesciunt, nobis architecto animi mollitia odio commodi?</p>
+
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur explicabo, laborum illum reiciendis repudiandae doloribus aut voluptas atque provident alias. Aspernatur est inventore nesciunt, nobis architecto animi mollitia odio commodi?</p>
+
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation </h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur explicabo, laborum illum reiciendis repudiandae doloribus aut voluptas atque provident alias. Aspernatur est inventore nesciunt, nobis architecto animi mollitia odio commodi?</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-------Facilities-------->
+
+    <section class="facilities">
+        <h1>Our Facilities </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="imagens/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae, repellat ullam ut omnis.</p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="imagens/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae, repellat ullam ut omnis.</p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="imagens/cafeteria.png" alt="">
+                <h3>Tasty and healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam recusandae, repellat ullam ut omnis.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    
+     <!-------footer-------->
+
+    <section class="footer">
+
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque accusantium consectetur repellendus <br> quod in ea maxime omnis obcaecati consequatur error quos nisi excepturi, asperiores nam facilis molestiae! Magnam, sapiente officiis?  </p>
+
+        <div class="icons">
+
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+
+
+        </div>
+        <p>Made by Evar Tone</p>
+
+
+     </section>
+
+<!----------JavaScript for Toggle Menu-------->
+
+    <script>
+
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+          navlinks.style.right = "0";  
+        }
+
+        function hideMenu(){
+          navlinks.style.right = "-200px";  
+        }
+
+    </script>
+    
+</body>
+</html>
